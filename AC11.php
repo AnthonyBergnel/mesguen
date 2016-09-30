@@ -52,7 +52,7 @@ if($_SESSION['emplCat']=="Exploitant")
 	        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		</head>
 		<body>
-			<h3>AC11 - Organiser les tournées - Liste des tournées eddede</h3>
+			<h3>AC11 - Organiser les tournées - Liste des tournées</h3>
 			<table id="tableau_tournees">
 				<?php
 				$couleur="Claire";
