@@ -1,0 +1,299 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+#connexion_fieldset
+{
+	width: 25%;
+	margin: auto;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.suppr_form
+{
+	background: url(../images/suppr.png);
+	width: 38px;
+	height: 38px;
+	color: rgba(0,0,0,0);
+	display: block;
+	margin: auto;
+	cursor: pointer;
+}
+
+.modif_form
+{
+	background: url(../images/modif.png);
+	width: 38px;
+	height: 38px;
+	color: rgba(0,0,0,0);
+	display: block;
+	margin: auto;
+	cursor: pointer;
+}
+
+#ajouter
+{
+	background: url(../images/ajout.png);
+	background-repeat: no-repeat;
+}
+
+#retour
+{
+	background: url(../images/retour.png);
+	background-repeat: no-repeat;
+}
+
+#annuler
+{
+	background: url(../images/suppr.png);
+	background-repeat: no-repeat;
+}
+
+#valider
+{
+	background: url(../images/slash.png);
+	background-repeat: no-repeat;
+}
+
+.bouton_global
+{
+	margin-left: 5%;
+	margin-top: 25px;
+	height: 38px;
+	padding-left: 38px;
+	padding-right: 38px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#label_float , #input_float , #valid_float
+{
+	position: fixed;
+	display: inline-block;
+	vertical-align: top;
+	margin: 3%;
+	margin-top: 10%;
+}
+
+#input_float
+{
+	margin-left: 20%;
+}
+
+#label_float label
+{
+	font-size: 110%;
+}
+
+#input_float input , #input_float select , #input_float textarea
+{
+	width: 100%;
+	border: 2px solid green;
+}
+
+#input_float input
+{
+	text-align: right;
+}
+
+#input_float textarea
+{
+	height: 130px;
+}
+
+.styled_select select
+{
+   background: transparent;
+   -moz-appearance: none;
+}
+
+.styled_select
+{
+   width: calc(100% + 5px);
+   overflow: hidden;
+   background: url(../images/select_arrow.png) no-repeat right;
+   border: 1px solid #ccc;
+}
+
+#valid_float
+{
+	bottom: 10px;
+	display: block;
+	width: 40%;
+}
+
+#header_Organiser_tournee
+{
+	position: fixed;
+	width: 100%;
+	color: white;
+	background-color: green;
+	text-align: center;
+	margin-top: 0px;
+	font-size: 150%;
+	z-index: 1;
+}
+
+#etapes_tournee
+{
+	position: absolute;
+	top: 15%;
+	right: 0%;
+	width: 55%;
+	margin-right: 10%;
+}
+
+#etapes_tournee td
+{
+	padding: 10px;
+}
+
+#etapes_tournee th
+{
+	text-align: left;
+}
+
+#tableau_tournees
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#tableau_tournees td , #tableau_tournees th
+{
+	border: 1px solid green;
+	height: 35px;
+}
+
+#tableau_tournees th
+{
+	text-align: left;
+	border-bottom: 3px solid black;
+}
+
+.separateur_vertical
+{
+	position: fixed;
+	border: 3px solid green;
+	border-radius: 5px;
+	top: 10%;
+	left: 48%;
+	width: 0px;
+	height: 80%;
+}
+
+.tourneeFoncee td , .tourneeFoncee th
+{
+	background-color: #AADD6C;
+}
+
+.tourneeClaire td , .tourneeClaire th 
+{
+	background-color: #EFFFEF;
+}
+
+h3
+{
+	color: white;
+	background-color: green;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	font-size: 150%;
+}
+
+/* DEBUT calendrier JS : jsSimpleDatePickr */
+#calendarMain1, #calendarMain2{
+    margin-left: 20%;
+}
+/* conteneur calendrier */
+.calendarWrap{
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    width: 210px;
+    padding: 5px 10px 10px 10px;
+    background-color: #2e373f;
+    /*background-color: rgba(46, 55, 63, 0.95);*/
+    border-radius: 10px;
+    -moz-box-shadow: 0 0 10px #555;
+    -webkit-box-shadow: 0 0 10px #555;
+    box-shadow: 0 0 10px #555;
+    font-size: 12px;
+}
+/* bouton d'affichage*/
+#calendarMain1 > input, #calendarMain2 > input{
+    display: block;
+    width: 100px;
+    height: 22px;
+    padding-top: 2px;
+    background-color: #2e373f;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+#calendarMain1 > input:hover, #calendarMain2 > input:hover{
+    background-color: #2673cb;
+}
+/* navigation dans le calendrier */
+.calendarWrap ul{
+    margin: 5px 0 10px 0;
+    padding: 0;
+}
+.calendarWrap li{
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    display: inline-block;
+    *display: inline;
+}
+.calendarWrap li.calendarTitle{
+    width: 170px;
+    color: #ccc;
+    text-align: center;
+}
+.calendarWrap li input{
+    width: 20px;
+    background-color: #5d6f7f;
+    border: none;
+    color: #fff;
+}
+.calendarWrap li input:hover{
+    background-color: #6f8598;
+}
+/* calendrier */
+.jsCalendar{
+    color: #fff;
+    border-collapse: collapse;
+}
+.jsCalendar th{
+    color: #8ba7bf;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+.jsCalendar td{
+    padding: 0;
+    border: none;
+}
+.jsCalendar a{
+    display: block;
+    width: 30px;
+    padding: 3px 0 3px 0;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+.jsCalendar .day:hover a{
+    background-color: #2673cb;
+    border-color: #2673cb;
+}
+.jsCalendar .selectedDay a{
+    background-color: #c44d38;
+    border-color: #c44d38;
+}
+/* FIN calendrier JS : jsSimpleDatePickr */

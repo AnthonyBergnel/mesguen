@@ -1,0 +1,12 @@
+Alfa Romeo
+Chevrolet
+Citroën
+Fiat
+Honda
+Lancia
+Man
+Mercedes-Benz
+Mitsubishi
+Opel
+Renault
+Volvo

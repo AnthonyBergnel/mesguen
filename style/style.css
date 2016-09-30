@@ -1,0 +1,152 @@
+
+body{
+	background:url(../images/fond.jpg) no-repeat; 
+	color: #fff;
+	font-family: "verdana", sans-serif;
+}
+form.connexion{
+	position: absolute;
+	top: 35%;
+	left: 40%;
+}
+fieldset.connexion{
+	width:300px;
+	height: 140px;
+	border: solid 1px #fff;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	
+}
+img{
+	position: absolute;
+	top: 0%;
+	left: 38%;
+}
+.bouton5 {
+	border-radius:12px 0 12px 0;
+	background: #32CD32;
+	border:none;
+	color:#fff;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+	position: absolute;
+	top: 80%;
+	left: 70%
+}
+.bouton5:hover {
+	border-radius:12px 0 12px 0;
+	background: #fff;
+	border:none;
+	color:#32CD32;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+	position: absolute;
+	top: 80%;
+	left: 70%
+}
+label.identifiant{
+	position: absolute;
+	left: 35%;
+	top: 18%;
+}
+input.identifiant{
+	position: absolute;
+	top: 33%;
+	left: 24%;
+}
+label.mdp{
+	position: absolute;
+	top: 50%;
+	left: 33%;
+}
+input.mdp{
+	position: absolute;
+	top: 65%;
+	left: 24%;
+}
+input{
+	border:solid 1px #fff;
+	border-radius:5px;
+	text-align:center;
+}
+
+
+
+
+
+
+
+@media all and (max-width:480px){
+	body{
+	background:url(fond.jpg) no-repeat; 
+	color: #fff;
+	font-family: "verdana", sans-serif;
+}
+form.connexion{
+	position: absolute;
+	top: 20%;
+	left: 10%;
+}
+fieldset.connexion{
+	width:300px;
+	height: 140px;
+	border: solid 1px #fff;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	
+}
+img{
+	position: absolute;
+	top: 0%;
+	left: 4%;
+}
+.bouton5 {
+	border-radius:12px 0 12px 0;
+	background: #32CD32;
+	border:none;
+	color:#fff;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+	position: absolute;
+	top: 80%;
+	left: 76%
+}
+.bouton5:hover {
+	border-radius:12px 0 12px 0;
+	background: #fff;
+	border:none;
+	color:#32CD32;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+	position: absolute;
+	top: 80%;
+	left: 76%
+}
+label.identifiant{
+	position: absolute;
+	left: 35%;
+	top: 18%;
+}
+input.identifiant{
+	position: absolute;
+	top: 33%;
+	left: 24%;
+}
+label.mdp{
+	position: absolute;
+	top: 50%;
+	left: 33%;
+}
+input.mdp{
+	position: absolute;
+	top: 65%;
+	left: 24%;
+}
+input{
+	border:solid 1px #fff;
+	border-radius:5px;
+	text-align:center;
+}
+
