@@ -47,12 +47,12 @@ if($_SESSION['emplCat']=="Exploitant")
 	<!DOCTYPE html>
 	<html>
 		<head>
-	        <title>Tournées qui commit</title>
+	        <title>Tournées</title>
 	        <link rel="stylesheet" type="text/css" href="style/styleac11.css" />
 	        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		</head>
 		<body>
-			<h3>AC11 - Organiser les tournées - Liste des tournées</h3>
+			<h3>AC11 - Organiser les tournées - Liste des tournées eddede</h3>
 			<table id="tableau_tournees">
 				<?php
 				$couleur="Claire";
